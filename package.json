@@ -1,0 +1,15 @@
+{
+  "name": "deepeval",
+  "version": "1.0.0",
+  "description": "Minimal example showing createLLMAsJudge scoring a prompt with OpenEvals",
+  "type": "module",
+  "main": "eval.js",
+  "scripts": {
+    "eval": "node eval.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.77.4",
+    "openevals": "^0.0.15"
+  }
+}
